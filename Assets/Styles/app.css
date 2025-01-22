@@ -1,0 +1,80 @@
+html {
+    font-size: 12px;
+    color: black;
+}
+
+body {
+    background-image: url("../Images/gm-background-img.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+.header {
+    height: 8vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.link-home {
+    margin: auto auto;
+}
+
+.site-logo {
+    width: 12rem;
+    height: 6rem;
+}
+
+.account-options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 1rem;
+}
+
+.login-link {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.login-link:hover {
+    cursor: pointer;
+}
+
+.section-hero {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-gm {
+    
+}
+
+.hero-player {
+
+}
+
+.player-link {
+    text-decoration: none;
+    color: white;
+    font-size: 4rem;
+    border: 3px solid white;
+    border-radius: 2rem;
+    padding: 2rem;
+
+}
+
